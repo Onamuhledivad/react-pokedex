@@ -1,0 +1,18 @@
+.main{
+    background-color: rgb(230 230 230 / 95%);
+    height: auto;
+    min-height: 800px;
+}
+
+.divText{
+    width: 50%;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+.textP{
+    text-align: center;
+    text-transform: uppercase;
+    color: #004d85;
+    font-weight: bold;
+}

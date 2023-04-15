@@ -1,0 +1,60 @@
+.bg {
+    min-height: 100vh;
+    padding-bottom: 100px;
+}
+
+.img{
+    top: -10rem;
+    left: 0;
+    right: 0;
+    position: relative;
+}
+.info {
+    max-width: 550px;
+    width: 95%;
+    margin: 0 auto;
+    background-color: white;
+    height: auto;
+    bottom: 0;
+    top: 5rem;
+    position: relative;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 3px 15px rgba(100, 100, 100, 0.5);
+}
+
+.circle {
+    display: flex;
+    align-items: center;
+    max-width: 250px;
+    width: 70%;
+    max-height: 250px;
+    height: 250px;
+    top: -25%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto;
+    background-color: #fff;
+    position: absolute;
+    border-radius: 100%;
+    
+  }
+
+.imgPokemon {
+    position: absolute;
+    margin: 0 auto;
+    width: 250px;
+    height: auto;
+    object-fit: contain;
+  }
+
+.loadingContainer {
+    background-color: #004D85;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }

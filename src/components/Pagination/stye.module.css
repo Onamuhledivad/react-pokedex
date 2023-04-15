@@ -1,0 +1,30 @@
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 0 0 30px 0;
+    font-weight: bold;
+}
+    .button {
+      padding: 5px 6px;
+    background: #c1c1c1;
+    border: 1px solid #c5c5c5;
+    cursor: pointer;
+    border-radius: 100%;
+    }
+  
+    .button:hover {
+      transition-duration: .3s;
+      transform: scale(1.1);
+    }
+  
+    .button[disabled] {
+      cursor: no-drop;
+      background: rgb(219 219 219 / 78%);
+      opacity: 0.2;
+    }
+
+    .arrowLeft{
+      transform: scaleX(-1);
+  }

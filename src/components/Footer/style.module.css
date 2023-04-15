@@ -1,0 +1,27 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 10px;
+    background-color: #004D85;
+    color: white;
+    position: relative;
+    bottom: 0;
+}
+
+.footImg{
+    width: 30px;
+    margin: 5px 0;
+}
+
+.footer p{
+    text-decoration: none;
+    color: white;
+    margin-top: 12px;
+    font-size: 0.8rem;
+}
+
+.footer p:hover{
+    cursor: pointer;
+    color: yellow;
+}

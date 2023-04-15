@@ -1,0 +1,16 @@
+.types {
+    margin-top: 120px;
+    padding-top: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.type {
+    padding: 0.3rem 1.2rem;
+    border-radius: 1rem;
+    color: white;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-style: italic;
+  }

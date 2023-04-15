@@ -1,0 +1,61 @@
+.txtLink {
+    color: inherit;
+    text-decoration: inherit;
+}
+.pokemon {
+	background-color: #eee;
+	border-radius: 10px;
+	box-shadow: 0 3px 15px rgba(100, 100, 100, 0.5);
+	margin: 10px;
+	padding: 20px;
+	text-align: center;
+    width: 200px;
+	border: 2px solid rgb(225 217 148 / 42%);
+}
+
+.pokemon:hover {
+	box-shadow: -1px 10px 30px -15px rgba(0, 0, 0, 0.65);
+	-webkit-box-shadow: -1px 10px 30px -15px rgba(0, 0, 0, 0.65);
+	-moz-box-shadow: -1px 10px 30px -15px rgba(0, 0, 0, 0.65);
+	transition-duration: 0.5s;
+	opacity: 0.7;
+  }
+
+.pokemon .imgContainer {
+	background-color: rgba(255, 255, 255, 0.6);
+	border-radius: 50%;
+	width: 120px;
+	height: 120px;
+	text-align: center;
+    margin: auto;
+}
+
+.pokemon .imgContainer img {
+	margin-top: 20px;
+	max-width: 90%;
+}
+
+.pokemon .info {
+	margin-top: 20px;
+}
+
+.pokemon .number {
+	background-color: rgba(0, 0, 0, 0.1);
+	border-radius: 8px;
+    font-size: 0.8rem;
+    padding: 5px 15px;
+}
+
+.pokemon .name {
+	margin: 15px 0 7px;
+	letter-spacing: 1px;
+	text-transform: capitalize;
+}
+
+.pokemon .type {
+	text-transform: uppercase;
+    color: #282828;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 0.6rem;
+}

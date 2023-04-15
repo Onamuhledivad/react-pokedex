@@ -1,0 +1,68 @@
+.header {
+    margin: 0 auto;
+      position: relative;
+      max-width: 650px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      padding: 2rem;
+      color: white;
+  }
+  
+  .circle {
+      display: flex;
+      align-items: center;
+      max-width: 350px;
+      width: 70%;
+      max-height: 350px;
+      height: 250px;
+      top: 15rem;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      margin: 0 auto;
+      background-color: #fff;
+      position: absolute;
+      border-radius: 100%;
+      
+    }
+  
+    .back {
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-size: 1rem;
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+  
+    .back:hover {
+        transform: scale(1.2);
+        transition-duration: 0.3s;
+      }
+  
+      .title{
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      text-transform: uppercase;
+      font-weight: bold;
+      }
+  
+      .title h1{
+          font-style: italic;
+          font-size: 1.3rem;
+      }
+  
+      .title h2{
+          font-size: 1.8rem;
+      }
+  
+  
+    .arrowLeft{
+      cursor: pointer;
+      transform: scaleX(-1);
+      }
+  
