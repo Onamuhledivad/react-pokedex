@@ -1,2 +1,2 @@
 # react-pokedex
-Web App con React y PokeApi
+Web App con React, Typescript y PokeApi
